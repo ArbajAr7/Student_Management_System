@@ -1,0 +1,108 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(206, 204, 204);
+}
+#nav_id {
+    list-style-type: none;
+    padding: 8px 0px;
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  #nav_li {
+    float: left;
+  }
+  
+  #nav_a {
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+  }
+
+  #main_div{
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #search_input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    width: 84%;
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  .search-container button {
+    margin-left:10px;
+    padding-right:35px;
+    padding-left:35px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: black;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+  .filter_btns{
+    margin-right: 40px;
+    margin-left: 35px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .table_div{
+    margin-right: 40px;
+    margin-left: 35px;
+    margin-top: 20px;
+
+  }
+
+  .search_btn_2 {
+    margin-left:10px;
+    width: 190px;
+    padding-bottom: 12px;
+    padding-top: 10px;
+    background-color: black;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  table{
+    margin-bottom: 20px;
+  }
+  th {
+    font-weight: 400;
+    padding: 7px;
+  }
+  #th_id{
+    width:40px;
+  }
+  #th_name{
+    width:300px;
+  }
+  .th_rest{
+    width:200px;
+  }
+  td{
+    padding-top: 7px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    text-align: left;
+  }
+  img{
+    margin-right: 25px;
+  }
